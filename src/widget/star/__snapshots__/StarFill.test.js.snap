@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StarFill for rating: 1 1`] = `
+"<span className=\\"StarFill\\">
+  <Star index={1} rating={1} size=\\"small\\" />
+  <Star index={2} rating={1} size=\\"small\\" />
+  <Star index={3} rating={1} size=\\"small\\" />
+  <Star index={4} rating={1} size=\\"small\\" />
+  <Star index={5} rating={1} size=\\"small\\" />
+</span>"
+`;
+
+exports[`StarFill for rating: 2 1`] = `
+"<span className=\\"StarFill\\">
+  <Star index={1} rating={2} size=\\"small\\" />
+  <Star index={2} rating={2} size=\\"small\\" />
+  <Star index={3} rating={2} size=\\"small\\" />
+  <Star index={4} rating={2} size=\\"small\\" />
+  <Star index={5} rating={2} size=\\"small\\" />
+</span>"
+`;
+
+exports[`StarFill for rating: 3 1`] = `
+"<span className=\\"StarFill\\">
+  <Star index={1} rating={3} size=\\"small\\" />
+  <Star index={2} rating={3} size=\\"small\\" />
+  <Star index={3} rating={3} size=\\"small\\" />
+  <Star index={4} rating={3} size=\\"small\\" />
+  <Star index={5} rating={3} size=\\"small\\" />
+</span>"
+`;
+
+exports[`StarFill for rating: 4 1`] = `
+"<span className=\\"StarFill\\">
+  <Star index={1} rating={4} size=\\"small\\" />
+  <Star index={2} rating={4} size=\\"small\\" />
+  <Star index={3} rating={4} size=\\"small\\" />
+  <Star index={4} rating={4} size=\\"small\\" />
+  <Star index={5} rating={4} size=\\"small\\" />
+</span>"
+`;
+
+exports[`StarFill for rating: 5 1`] = `
+"<span className=\\"StarFill\\">
+  <Star index={1} rating={5} size=\\"small\\" />
+  <Star index={2} rating={5} size=\\"small\\" />
+  <Star index={3} rating={5} size=\\"small\\" />
+  <Star index={4} rating={5} size=\\"small\\" />
+  <Star index={5} rating={5} size=\\"small\\" />
+</span>"
+`;

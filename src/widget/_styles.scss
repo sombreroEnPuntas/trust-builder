@@ -6,13 +6,25 @@ $color-font-primary: #212121;
 $color-font-primary-invert: #FAFAFA;
 $color-font-secondary: #616161;
 
-$color-star: #FDD835;
+$color-star-0: #C8C8C8;
+$color-star-1: #E12729;
+$color-star-2: #F37324;
+$color-star-3: #F8CC1B;
+$color-star-4: #72B043;
+$color-star-5: #007F4E;
 
 // +--------+
 // | FONTS  |
 // +--------+
 
 $font-size-primary: 14px;
+$font-size-primary-star-block: 16px;
+$font-size-primary-star-margin: 1px;
+
+$font-size-primary-big: 30px;
+$font-size-primary-big-star-block: 34px;
+$font-size-primary-big-star-margin: 1px;
+
 $font-size-secondary: 12px;
 
 // +--------+
@@ -32,8 +44,19 @@ $font-size-secondary: 12px;
   font-weight: bold;
 }
 
-@mixin text-stars {
-  color: $color-star;
-  font-size: $font-size-primary;
-  font-weight: normal;
+@mixin colored-star-blocks($rating: 0) {
+  @if $rating == 0 { background-color: $color-star-0; }
+  @else if $rating == 1 { background-color: $color-star-1; }
+  @else if $rating == 2 { background-color: $color-star-2; }
+  @else if $rating == 3 { background-color: $color-star-3; }
+  @else if $rating == 4 { background-color: $color-star-4; }
+  @else if $rating == 5 { background-color: $color-star-5; }
+  
+  color: $color-font-primary-invert;
+  text-align: center;
+  display: inline-block;
+}
+
+@mixin star-line-spacer {
+  width: calc(100% - #{5 * ($font-size-primary-star-block + ($font-size-primary-star-margin * 2))});
 }

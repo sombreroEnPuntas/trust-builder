@@ -1,18 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { StarFill } from '../star';
 import './Comment.scss';
-
-const starLine = rating => `${'★'.repeat(rating)}${'☆'.repeat(5 - rating)}`;
 
 const Comment = ({
   review,
 }) => (
   <div className="Comment">
-    <div className="title">
-      <span>{review.reviewTitle}</span>
-      <span className="rating">{starLine(review.starRating)}</span>
-    </div>
+    <span className="title">
+      {review.reviewTitle}
+    </span>
+    <span className="rating">
+      <StarFill rating={parseInt(review.starRating, 10)} />
+    </span>
     <div className="sub-title">
       <span>{`${review.fullName}${review.location ? ' - ' : ''}${review.location}`}</span>
     </div>

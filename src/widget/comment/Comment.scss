@@ -3,11 +3,13 @@
 .Comment {
   .title {
     @include text-primary();
+    @include star-line-spacer();
+    
+    display: inline-block;
     font-weight: bold;
   }
 
   .rating {
-    @include text-stars();
     float: right;
   }
 

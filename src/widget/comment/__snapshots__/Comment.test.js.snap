@@ -1,15 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Comment renders mocks as expected for:  Erika Wolfe 1`] = `
+exports[`Comment renders mocks as expected for: Erika Wolfe 1`] = `
 "<div className=\\"Comment\\">
-  <div className=\\"title\\">
-    <span>
-      Nightmare experience - no product, no communication, no refund; improved by rapid resolution
-    </span>
-    <span className=\\"rating\\">
-      ★★☆☆☆
-    </span>
-  </div>
+  <span className=\\"title\\">
+    Nightmare experience - no product, no communication, no refund; improved by rapid resolution
+  </span>
+  <span className=\\"rating\\">
+    <StarFill rating={2} />
+  </span>
   <div className=\\"sub-title\\">
     <span>
       Erika Wolfe - Gothenburg, SE
@@ -33,16 +31,14 @@ exports[`Comment renders mocks as expected for:  Erika Wolfe 1`] = `
 </div>"
 `;
 
-exports[`Comment renders mocks as expected for:  Gav 1`] = `
+exports[`Comment renders mocks as expected for: Gav 1`] = `
 "<div className=\\"Comment\\">
-  <div className=\\"title\\">
-    <span>
-      Princely Sum
-    </span>
-    <span className=\\"rating\\">
-      ★★★★☆
-    </span>
-  </div>
+  <span className=\\"title\\">
+    Princely Sum
+  </span>
+  <span className=\\"rating\\">
+    <StarFill rating={4} />
+  </span>
   <div className=\\"sub-title\\">
     <span>
       Gav
@@ -56,16 +52,14 @@ exports[`Comment renders mocks as expected for:  Gav 1`] = `
 </div>"
 `;
 
-exports[`Comment renders mocks as expected for:  Hugo Beja 1`] = `
+exports[`Comment renders mocks as expected for: Hugo Beja 1`] = `
 "<div className=\\"Comment\\">
-  <div className=\\"title\\">
-    <span>
-      FRAUD
-    </span>
-    <span className=\\"rating\\">
-      ★☆☆☆☆
-    </span>
-  </div>
+  <span className=\\"title\\">
+    FRAUD
+  </span>
+  <span className=\\"rating\\">
+    <StarFill rating={1} />
+  </span>
   <div className=\\"sub-title\\">
     <span>
       Hugo Beja - Praia Da Barra, PT
@@ -82,16 +76,14 @@ exports[`Comment renders mocks as expected for:  Hugo Beja 1`] = `
 </div>"
 `;
 
-exports[`Comment renders mocks as expected for:  Justin Wright 1`] = `
+exports[`Comment renders mocks as expected for: Justin Wright 1`] = `
 "<div className=\\"Comment\\">
-  <div className=\\"title\\">
-    <span>
-      Good Services
-    </span>
-    <span className=\\"rating\\">
-      ★★★☆☆
-    </span>
-  </div>
+  <span className=\\"title\\">
+    Good Services
+  </span>
+  <span className=\\"rating\\">
+    <StarFill rating={3} />
+  </span>
   <div className=\\"sub-title\\">
     <span>
       Justin Wright - London, GB
@@ -105,16 +97,14 @@ exports[`Comment renders mocks as expected for:  Justin Wright 1`] = `
 </div>"
 `;
 
-exports[`Comment renders mocks as expected for:  Simon Lock 1`] = `
+exports[`Comment renders mocks as expected for: Simon Lock 1`] = `
 "<div className=\\"Comment\\">
-  <div className=\\"title\\">
-    <span>
-      Super quality.. I will show here again!
-    </span>
-    <span className=\\"rating\\">
-      ★★★★★
-    </span>
-  </div>
+  <span className=\\"title\\">
+    Super quality.. I will show here again!
+  </span>
+  <span className=\\"rating\\">
+    <StarFill rating={5} />
+  </span>
   <div className=\\"sub-title\\">
     <span>
       Simon Lock - Kolding
