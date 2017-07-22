@@ -1,0 +1,21 @@
+@import '../styles';
+
+.Comment {
+  .title {
+    @include text-primary();
+    font-weight: bold;
+  }
+
+  .rating {
+    @include text-stars();
+    float: right;
+  }
+
+  .sub-title {
+    @include text-secondary();
+  }
+
+  .body {
+    @include text-primary();
+  }
+}
