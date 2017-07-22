@@ -1,0 +1,39 @@
+// +--------+
+// | COLORS |
+// +--------+
+
+$color-font-primary: #212121;
+$color-font-primary-invert: #FAFAFA;
+$color-font-secondary: #616161;
+
+$color-star: #FDD835;
+
+// +--------+
+// | FONTS  |
+// +--------+
+
+$font-size-primary: 14px;
+$font-size-secondary: 12px;
+
+// +--------+
+// | MIXINS |
+// +--------+
+
+@mixin text-primary() {
+  color: $color-font-primary;
+  font-size: $font-size-primary;
+  font-weight: normal;
+}
+
+@mixin text-secondary() {
+  color: $color-font-secondary;
+  font-size: $font-size-secondary;
+  font-style: italic;
+  font-weight: bold;
+}
+
+@mixin text-stars {
+  color: $color-star;
+  font-size: $font-size-primary;
+  font-weight: normal;
+}
