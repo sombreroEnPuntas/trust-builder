@@ -11,7 +11,7 @@ it('Comment renders without crashing', () => {
 describe('Comment renders mocks as expected for:', () => {
   reviews.forEach(review => {
     it(review.fullName, () => {
-      const wrapper = shallow(<Comment className="some-parent-class" review={review} />);
+      const wrapper = shallow(<Comment review={review} />);
       expect(wrapper.debug()).toMatchSnapshot();
     });
   });

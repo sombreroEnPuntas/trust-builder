@@ -6,11 +6,12 @@
     height: $widget-block-normal;
   
     .positioning {
+      display: inline-block;
     }
 
     .positioning:nth-child(1) {
       z-index: 0;
-      transform: rotate(-60deg) scale(0.01) translate(1600%, 20000%);
+      transform: rotate(-60deg) scale(0.01) translate(1500%, 18500%);
     }
     .positioning:nth-child(2) {
       z-index: 0;
@@ -33,7 +34,7 @@
     }
     .positioning:nth-last-child(1) {
       z-index: 0;
-      transform: rotate(60deg) scale(0.01) translate(-1600%, 20000%);
+      transform: rotate(60deg) scale(0.01) translate(-1500%, 18500%);
     }
   }
   

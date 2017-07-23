@@ -5,11 +5,10 @@ import { StarFill } from '../star';
 import './Comment.scss';
 
 const Comment = ({
-  className,
   review,
   size,
 }) => (
-  <div className={`Comment Comment_size-${size} ${className}`}>
+  <div className={`Comment Comment_size-${size}`}>
     <div className="header">
       <span className="title">
         {review.fullName}
@@ -29,7 +28,6 @@ const Comment = ({
 );
 
 Comment.propTypes = {
-  className: PropTypes.string,
   review: PropTypes.shape({
     fullName: PropTypes.string,
     location: PropTypes.string,
@@ -41,7 +39,6 @@ Comment.propTypes = {
 };
 
 Comment.defaultProps = {
-  className: '',
   size: 'normal',
 };
 

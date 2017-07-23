@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Comment renders mocks as expected for: Erika Wolfe 1`] = `
-"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+"<div className=\\"Comment Comment_size-normal\\">
   <div className=\\"header\\">
     <span className=\\"title\\">
       Erika Wolfe
@@ -37,7 +37,7 @@ exports[`Comment renders mocks as expected for: Erika Wolfe 1`] = `
 `;
 
 exports[`Comment renders mocks as expected for: Erika Wolfe 2`] = `
-"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+"<div className=\\"Comment Comment_size-normal\\">
   <div className=\\"header\\">
     <span className=\\"title\\">
       Erika Wolfe
@@ -73,7 +73,7 @@ exports[`Comment renders mocks as expected for: Erika Wolfe 2`] = `
 `;
 
 exports[`Comment renders mocks as expected for: Eriko Wolfo 1`] = `
-"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+"<div className=\\"Comment Comment_size-normal\\">
   <div className=\\"header\\">
     <span className=\\"title\\">
       Eriko Wolfo
@@ -109,7 +109,7 @@ exports[`Comment renders mocks as expected for: Eriko Wolfo 1`] = `
 `;
 
 exports[`Comment renders mocks as expected for: Gav 1`] = `
-"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+"<div className=\\"Comment Comment_size-normal\\">
   <div className=\\"header\\">
     <span className=\\"title\\">
       Gav
@@ -133,7 +133,7 @@ exports[`Comment renders mocks as expected for: Gav 1`] = `
 `;
 
 exports[`Comment renders mocks as expected for: Gav 2`] = `
-"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+"<div className=\\"Comment Comment_size-normal\\">
   <div className=\\"header\\">
     <span className=\\"title\\">
       Gav
@@ -157,7 +157,7 @@ exports[`Comment renders mocks as expected for: Gav 2`] = `
 `;
 
 exports[`Comment renders mocks as expected for: Gava 1`] = `
-"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+"<div className=\\"Comment Comment_size-normal\\">
   <div className=\\"header\\">
     <span className=\\"title\\">
       Gava
@@ -181,7 +181,7 @@ exports[`Comment renders mocks as expected for: Gava 1`] = `
 `;
 
 exports[`Comment renders mocks as expected for: Huga Bejo 1`] = `
-"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+"<div className=\\"Comment Comment_size-normal\\">
   <div className=\\"header\\">
     <span className=\\"title\\">
       Huga Bejo
@@ -210,7 +210,7 @@ exports[`Comment renders mocks as expected for: Huga Bejo 1`] = `
 `;
 
 exports[`Comment renders mocks as expected for: Hugo Beja 1`] = `
-"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+"<div className=\\"Comment Comment_size-normal\\">
   <div className=\\"header\\">
     <span className=\\"title\\">
       Hugo Beja
@@ -239,7 +239,7 @@ exports[`Comment renders mocks as expected for: Hugo Beja 1`] = `
 `;
 
 exports[`Comment renders mocks as expected for: Hugo Beja 2`] = `
-"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+"<div className=\\"Comment Comment_size-normal\\">
   <div className=\\"header\\">
     <span className=\\"title\\">
       Hugo Beja
@@ -268,7 +268,7 @@ exports[`Comment renders mocks as expected for: Hugo Beja 2`] = `
 `;
 
 exports[`Comment renders mocks as expected for: Justin Wright 1`] = `
-"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+"<div className=\\"Comment Comment_size-normal\\">
   <div className=\\"header\\">
     <span className=\\"title\\">
       Justin Wright
@@ -294,7 +294,7 @@ exports[`Comment renders mocks as expected for: Justin Wright 1`] = `
 `;
 
 exports[`Comment renders mocks as expected for: Justin Wright 2`] = `
-"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+"<div className=\\"Comment Comment_size-normal\\">
   <div className=\\"header\\">
     <span className=\\"title\\">
       Justin Wright
@@ -320,7 +320,7 @@ exports[`Comment renders mocks as expected for: Justin Wright 2`] = `
 `;
 
 exports[`Comment renders mocks as expected for: Justina Wrighta 1`] = `
-"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+"<div className=\\"Comment Comment_size-normal\\">
   <div className=\\"header\\">
     <span className=\\"title\\">
       Justina Wrighta
@@ -346,7 +346,7 @@ exports[`Comment renders mocks as expected for: Justina Wrighta 1`] = `
 `;
 
 exports[`Comment renders mocks as expected for: Simon Lock 1`] = `
-"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+"<div className=\\"Comment Comment_size-normal\\">
   <div className=\\"header\\">
     <span className=\\"title\\">
       Simon Lock
@@ -372,7 +372,7 @@ exports[`Comment renders mocks as expected for: Simon Lock 1`] = `
 `;
 
 exports[`Comment renders mocks as expected for: Simon Lock 2`] = `
-"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+"<div className=\\"Comment Comment_size-normal\\">
   <div className=\\"header\\">
     <span className=\\"title\\">
       Simon Lock
@@ -398,7 +398,7 @@ exports[`Comment renders mocks as expected for: Simon Lock 2`] = `
 `;
 
 exports[`Comment renders mocks as expected for: Simona Locka 1`] = `
-"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+"<div className=\\"Comment Comment_size-normal\\">
   <div className=\\"header\\">
     <span className=\\"title\\">
       Simona Locka

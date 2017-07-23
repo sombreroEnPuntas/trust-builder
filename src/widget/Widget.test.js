@@ -1,21 +1,21 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
+import { mount } from 'enzyme';
 
 import reviews from '../mocks/reviews';
 import Widget from './Widget';
 
 it('Widget renders without crashing', () => {
-  shallow(<Widget />);
+  mount(<Widget totalCards={0} />);
 });
 
 describe('Widget renders mocks as expected for:', () => {
   it('Shows loading message...', () => {
-    const wrapper = shallow(<Widget />);
+    const wrapper = mount(<Widget totalCards={0} />);
     expect(wrapper.debug()).toMatchSnapshot();
   });
 
   it('Shows reviews!', () => {
-    const wrapper = mount(<Widget reviews={reviews} />);
+    const wrapper = mount(<Widget reviews={reviews} totalCards={reviews.length} />);
     expect(wrapper.debug()).toMatchSnapshot();
   });
 });
