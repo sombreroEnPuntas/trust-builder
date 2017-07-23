@@ -50,11 +50,11 @@ export class Widget extends Component {
 
     return (
       <div className="Widget">
-        <button className="button button_type_back" onClick={onClickBack}>&lt;</button>
+        <button className="button button_type-back" onClick={onClickBack}>&lt;</button>
         <div className="comments">
           {cards}
         </div>
-        <button className="button button_type_next" onClick={onClickNext}>&gt;</button>
+        <button className="button button_type-next" onClick={onClickNext}>&gt;</button>
         <div className="logo">
           <img alt="☑ Trustpilot" src={logoSrc} />
         </div>

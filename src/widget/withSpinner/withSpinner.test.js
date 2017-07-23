@@ -10,25 +10,25 @@ describe('Widget shows behavior for:', () => {
 
   it('Click back (below 0)...', () => {
     expect(wrapper.state('currentCard')).toEqual(0);
-    wrapper.find('.button_type_back').simulate('click');
+    wrapper.find('.button_type-back').simulate('click');
     expect(wrapper.state('currentCard')).toEqual(14);
   });
 
   it('Click next (above max)...', () => {
     expect(wrapper.state('currentCard')).toEqual(14);
-    wrapper.find('.button_type_next').simulate('click');
+    wrapper.find('.button_type-next').simulate('click');
     expect(wrapper.state('currentCard')).toEqual(0);
   });
 
   it('Click next...', () => {
     expect(wrapper.state('currentCard')).toEqual(0);
-    wrapper.find('.button_type_next').simulate('click');
+    wrapper.find('.button_type-next').simulate('click');
     expect(wrapper.state('currentCard')).toEqual(1);
   });
 
   it('Click back...', () => {
     expect(wrapper.state('currentCard')).toEqual(1);
-    wrapper.find('.button_type_back').simulate('click');
+    wrapper.find('.button_type-back').simulate('click');
     expect(wrapper.state('currentCard')).toEqual(0);
   });
 

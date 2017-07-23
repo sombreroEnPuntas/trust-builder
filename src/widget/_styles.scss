@@ -15,6 +15,9 @@ $color-star-5: #007F4E;
 
 $color-background: #FAFAFA;
 
+$color-button: #F2AD18;
+$color-button-shadow: #616161;
+
 // +--------+
 // | SIZES  |
 // +--------+
@@ -37,13 +40,20 @@ $font-size-primary-big-star-margin: 1px;
 
 $font-size-secondary: 12px;
 
+$font-size-button-normal: 80px;
+$font-size-button-normal-block: 92px;
+$font-size-button-normal-block-half: 46px;
+
 // +--------+
 // | STYLES |
 // +--------+
 
 $spacing: 0.5em;
+
 $review-block-border: 3px solid $color-font-primary;
 $review-block-border-radius: 6px;
+
+$button-box-shadow: 2px 2px 5px 0px $color-button-shadow;
 
 // +--------+
 // | MIXINS |
@@ -89,4 +99,17 @@ $review-block-border-radius: 6px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
+}
+
+@mixin button-normal {
+  font-size: $font-size-button-normal;
+  background: $color-button;
+  box-shadow: $button-box-shadow;
+
+  border: 0;
+  padding: 0;
+  border-radius: 50%;
+
+  width: $font-size-button-normal-block;
+  height: $font-size-button-normal-block;
 }

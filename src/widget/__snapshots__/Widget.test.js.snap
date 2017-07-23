@@ -14,7 +14,7 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
 "<WithSpinner reviews={{...}} totalCards={15} initialCard={0}>
   <Widget reviews={{...}} totalCards={15} currentCard={0} onClickBack={[Function]} onClickNext={[Function]}>
     <div className=\\"Widget\\">
-      <button className=\\"button button_type_back\\" onClick={[Function]}>
+      <button className=\\"button button_type-back\\" onClick={[Function]}>
         &lt;
       </button>
       <div className=\\"comments\\">
@@ -483,7 +483,7 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
           </Comment>
         </span>
       </div>
-      <button className=\\"button button_type_next\\" onClick={[Function]}>
+      <button className=\\"button button_type-next\\" onClick={[Function]}>
         &gt;
       </button>
       <div className=\\"logo\\">

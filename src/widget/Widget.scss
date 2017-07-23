@@ -1,6 +1,25 @@
 @import './styles';
 
 .Widget {
+  position: relative;
+  width: 870px;
+  margin: auto;
+
+  .button {
+    @include button-normal();
+    z-index: 3;
+    position: absolute;
+    top: calc(50% - #{$font-size-button-normal-block-half});
+
+    &_type-next {
+      right: -10%;
+    }
+
+    &_type-back {
+      left: -10%;
+    }
+  }
+
   .comments {
     @include display-flex-center();
     height: $widget-block-normal;
