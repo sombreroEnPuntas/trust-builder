@@ -9,11 +9,12 @@ it('Star renders without crashing', () => {
 
 describe('Star gets proper class name and structure for:', () => {
   const stars = [
-    {index: 1, rating: 1}, {index: 2, rating: 1}, {index: 3, rating: 1}, {index: 4, rating: 1}, {index: 5, rating: 1},
-    {index: 1, rating: 2}, {index: 2, rating: 2}, {index: 3, rating: 2}, {index: 4, rating: 2}, {index: 5, rating: 2},
-    {index: 1, rating: 3}, {index: 2, rating: 3}, {index: 3, rating: 3}, {index: 4, rating: 3}, {index: 5, rating: 3},
-    {index: 1, rating: 4}, {index: 2, rating: 4}, {index: 3, rating: 4}, {index: 4, rating: 4}, {index: 5, rating: 4},
-    {index: 1, rating: 5}, {index: 2, rating: 5}, {index: 3, rating: 5}, {index: 4, rating: 5}, {index: 5, rating: 5},
+    {index: 2, rating: 1}, // color-0
+    {index: 1, rating: 1}, // color-1
+    {index: 1, rating: 2}, // color-2
+    {index: 1, rating: 3}, // color-3
+    {index: 1, rating: 4}, // color-4
+    {index: 1, rating: 5}, // color-5
   ];
 
   stars.forEach(star => {

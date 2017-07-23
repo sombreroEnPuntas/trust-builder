@@ -9,6 +9,7 @@ import './Widget.scss';
 
 const accumulateReviewRatings = (sum, review) => sum + parseInt(review.starRating, 10);
 const averageReviewRating = reviews => reviews.reduce(accumulateReviewRatings, 0) / reviews.length;
+const logoSrc = `${process.env.PUBLIC_URL}/logo/255x29.png`;
 
 export class Widget extends Component {
   render() {
@@ -24,22 +25,13 @@ export class Widget extends Component {
       return (<div>Loading reviews...</div>);
     }
 
-    const logoSrc = `${process.env.PUBLIC_URL}/logo/255x29.png`;
-
-    const starSettings = {
-      rating: averageReviewRating(reviews),
-      floating: true,
-    };
-
     const cards = [];
-
     let index = 0;
-    let indexMax = 6;
     let cardIndex;
-    for (; index <= indexMax; index++) {
-      cardIndex = currentCard + index > totalCards - 1 ?
-        currentCard + index - totalCards :
-        currentCard + index;
+
+    for (; index <= 4; index++) {
+      cardIndex = currentCard + index;
+      cardIndex = cardIndex > totalCards - 1 ? cardIndex - totalCards : cardIndex;
 
       cards.push(
         <span key={`card-${index}`} className="positioning">
@@ -55,11 +47,13 @@ export class Widget extends Component {
           {cards}
         </div>
         <button className="button button_type-next" onClick={onClickNext}>&gt;</button>
+
         <div className="logo">
           <img alt="☑ Trustpilot" src={logoSrc} />
         </div>
+
         <div className="stars">
-          <StarFill { ...starSettings } />
+          <StarFill floating rating={averageReviewRating(reviews)} />
         </div>
       </div>
     );

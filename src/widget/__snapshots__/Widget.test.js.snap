@@ -354,134 +354,6 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
             </div>
           </Comment>
         </span>
-        <span className=\\"positioning\\">
-          <Comment review={{...}} size=\\"normal\\">
-            <div className=\\"Comment Comment_size-normal\\">
-              <div className=\\"header\\">
-                <span className=\\"title\\">
-                  Simona Locka
-                </span>
-                <span className=\\"rating\\">
-                  <StarFill rating={5} floating={false}>
-                    <span className=\\"StarFill\\">
-                      <Star index={1} rating={5} size=\\"small\\">
-                        <span className=\\"Star\\">
-                          <span className=\\"star-block_color-5 star-block_size-small\\">
-                            🟊
-                          </span>
-                        </span>
-                      </Star>
-                      <Star index={2} rating={5} size=\\"small\\">
-                        <span className=\\"Star\\">
-                          <span className=\\"star-block_color-5 star-block_size-small\\">
-                            🟊
-                          </span>
-                        </span>
-                      </Star>
-                      <Star index={3} rating={5} size=\\"small\\">
-                        <span className=\\"Star\\">
-                          <span className=\\"star-block_color-5 star-block_size-small\\">
-                            🟊
-                          </span>
-                        </span>
-                      </Star>
-                      <Star index={4} rating={5} size=\\"small\\">
-                        <span className=\\"Star\\">
-                          <span className=\\"star-block_color-5 star-block_size-small\\">
-                            🟊
-                          </span>
-                        </span>
-                      </Star>
-                      <Star index={5} rating={5} size=\\"small\\">
-                        <span className=\\"Star\\">
-                          <span className=\\"star-block_color-5 star-block_size-small\\">
-                            🟊
-                          </span>
-                        </span>
-                      </Star>
-                    </span>
-                  </StarFill>
-                </span>
-                <div className=\\"sub-title\\">
-                  <span>
-                    Brandenburg
-                  </span>
-                </div>
-              </div>
-              <div className=\\"body\\">
-                <p className=\\"title\\">
-                  Ich hat eine ente
-                </p>
-                <p>
-                  Die ente frist das hund
-                </p>
-              </div>
-            </div>
-          </Comment>
-        </span>
-        <span className=\\"positioning\\">
-          <Comment review={{...}} size=\\"normal\\">
-            <div className=\\"Comment Comment_size-normal\\">
-              <div className=\\"header\\">
-                <span className=\\"title\\">
-                  Gava
-                </span>
-                <span className=\\"rating\\">
-                  <StarFill rating={4} floating={false}>
-                    <span className=\\"StarFill\\">
-                      <Star index={1} rating={4} size=\\"small\\">
-                        <span className=\\"Star\\">
-                          <span className=\\"star-block_color-4 star-block_size-small\\">
-                            🟊
-                          </span>
-                        </span>
-                      </Star>
-                      <Star index={2} rating={4} size=\\"small\\">
-                        <span className=\\"Star\\">
-                          <span className=\\"star-block_color-4 star-block_size-small\\">
-                            🟊
-                          </span>
-                        </span>
-                      </Star>
-                      <Star index={3} rating={4} size=\\"small\\">
-                        <span className=\\"Star\\">
-                          <span className=\\"star-block_color-4 star-block_size-small\\">
-                            🟊
-                          </span>
-                        </span>
-                      </Star>
-                      <Star index={4} rating={4} size=\\"small\\">
-                        <span className=\\"Star\\">
-                          <span className=\\"star-block_color-4 star-block_size-small\\">
-                            🟊
-                          </span>
-                        </span>
-                      </Star>
-                      <Star index={5} rating={4} size=\\"small\\">
-                        <span className=\\"Star\\">
-                          <span className=\\"star-block_color-0 star-block_size-small\\">
-                            🟊
-                          </span>
-                        </span>
-                      </Star>
-                    </span>
-                  </StarFill>
-                </span>
-                <div className=\\"sub-title\\">
-                  <span />
-                </div>
-              </div>
-              <div className=\\"body\\">
-                <p className=\\"title\\">
-                  Cesaro Summability
-                </p>
-                <p>
-                  This was a song I was listening to when I was younger.
-                </p>
-              </div>
-            </div>
-          </Comment>
-        </span>
       </div>
       <button className=\\"button button_type-next\\" onClick={[Function]}>
         &gt;
@@ -490,7 +362,7 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
         <img alt=\\"☑ Trustpilot\\" src=\\"/logo/255x29.png\\" />
       </div>
       <div className=\\"stars\\">
-        <StarFill rating={3} floating={true}>
+        <StarFill floating={true} rating={3}>
           <span className=\\"StarFill-floating\\">
             <span className=\\"positioning\\">
               <Star index={1} rating={3} size=\\"big\\">

@@ -9,18 +9,15 @@ const StarFill = ({ rating, floating }) => {
   let star;
   for (let i =1;i <= 5; i++){
     star = <Star
-      key={`star-color-${rating}-line-${i}`}
+      key={!floating && `star-color-${rating}-line-${i}`}
       index={i}
       rating={rating}
       size={floating ? 'big' : 'small'}
     />;
     
     line.push(floating ?
-      <span
-        key={`floating-${rating}-line-${i}`}
-        className="positioning"
-        >
-          {star}
+      <span key={`floating-${rating}-line-${i}`} className="positioning">
+        {star}
       </span> :
       star
     );

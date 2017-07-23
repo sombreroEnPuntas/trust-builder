@@ -3,7 +3,6 @@ import { mount } from 'enzyme';
 
 import reviews from '../../mocks/reviews';
 import Widget from '../Widget';
-// import withSpinner from './withSpinner';
 
 describe('Widget shows behavior for:', () => {
   const wrapper = mount(<Widget reviews={reviews} totalCards={reviews.length} />);
