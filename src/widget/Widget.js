@@ -40,7 +40,7 @@ class Widget extends Component {
         <div className="logo">
           <img alt="☑ Trustpilot" src={logoSrc} />
         </div>
-        <div className="rating">
+        <div className="stars">
           <Star className="positioning" index={1} { ...starSettings } />
           <Star className="positioning" index={2} { ...starSettings } />
           <Star className="positioning" index={3} { ...starSettings } />

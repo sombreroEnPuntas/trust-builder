@@ -340,7 +340,7 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
     <div className=\\"logo\\">
       <img alt=\\"☑ Trustpilot\\" src=\\"/logo/255x29.png\\" />
     </div>
-    <div className=\\"rating\\">
+    <div className=\\"stars\\">
       <Star className=\\"positioning\\" index={1} rating={3} size=\\"big\\">
         <span className=\\"Star positioning\\">
           <span className=\\"star-block_color-3 star-block_size-big\\">

@@ -35,13 +35,14 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+    margin-top: 20px;
   }
   
-  .rating {
+  .stars {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    margin-top: 30px; // TODO this is unacceptable :(
+    margin-top: 30px;
     
     .positioning {
     }

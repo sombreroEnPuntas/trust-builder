@@ -3,6 +3,7 @@
 .Comment {
   border: $review-block-border;
   border-radius: $review-block-border-radius;
+  padding: $spacing;
   background-color: $color-background;
   
   &_size-normal {
@@ -41,7 +42,7 @@
     .title {
       @include text-primary();
       font-weight: bold;
-      padding-bottom: 0.5em;
+      padding-bottom: $spacing;
     }
 
     p {
