@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Widget reviews={reviews} />
+        <Widget reviews={reviews} totalCards={reviews.length} />
       </div>
     );
   }
