@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import Comment from './comment';
-import { Star } from './star';
+import { StarFill } from './star';
 
 import './Widget.scss';
 
@@ -25,7 +25,7 @@ class Widget extends Component {
 
     const starSettings = {
       rating: averageReviewRating(reviews),
-      size: 'big',
+      floating: true,
     };
 
     return (
@@ -36,16 +36,14 @@ class Widget extends Component {
           <Comment className="positioning" review={reviews[2]} />
           <Comment className="positioning" review={reviews[3]} />
           <Comment className="positioning" review={reviews[4]} />
+          <Comment className="positioning" review={reviews[5]} />
+          <Comment className="positioning" review={reviews[6]} />
         </div>
         <div className="logo">
           <img alt="☑ Trustpilot" src={logoSrc} />
         </div>
         <div className="stars">
-          <Star className="positioning" index={1} { ...starSettings } />
-          <Star className="positioning" index={2} { ...starSettings } />
-          <Star className="positioning" index={3} { ...starSettings } />
-          <Star className="positioning" index={4} { ...starSettings } />
-          <Star className="positioning" index={5} { ...starSettings } />
+          <StarFill { ...starSettings } />
         </div>
       </div>
     );

@@ -18,4 +18,9 @@ describe('StarFill', () => {
       expect(wrapper.debug()).toMatchSnapshot();
     });
   });
+
+  it('has floating class', () => {
+    const wrapper = shallow(<StarFill rating={5} floating />);
+    expect(wrapper.debug()).toMatchSnapshot();
+  });
 });

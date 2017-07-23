@@ -84,3 +84,9 @@ $review-block-border-radius: 6px;
 @mixin star-line-spacer {
   width: calc(100% - #{5 * ($font-size-primary-star-block + ($font-size-primary-star-margin * 2))});
 }
+
+@mixin display-flex-center {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}

@@ -7,7 +7,7 @@ exports[`Comment renders mocks as expected for: Erika Wolfe 1`] = `
       Erika Wolfe
     </span>
     <span className=\\"rating\\">
-      <StarFill rating={2} />
+      <StarFill rating={2} floating={false} />
     </span>
     <div className=\\"sub-title\\">
       <span>
@@ -43,7 +43,7 @@ exports[`Comment renders mocks as expected for: Erika Wolfe 2`] = `
       Erika Wolfe
     </span>
     <span className=\\"rating\\">
-      <StarFill rating={2} />
+      <StarFill rating={2} floating={false} />
     </span>
     <div className=\\"sub-title\\">
       <span>
@@ -79,7 +79,7 @@ exports[`Comment renders mocks as expected for: Eriko Wolfo 1`] = `
       Eriko Wolfo
     </span>
     <span className=\\"rating\\">
-      <StarFill rating={2} />
+      <StarFill rating={2} floating={false} />
     </span>
     <div className=\\"sub-title\\">
       <span>
@@ -115,7 +115,7 @@ exports[`Comment renders mocks as expected for: Gav 1`] = `
       Gav
     </span>
     <span className=\\"rating\\">
-      <StarFill rating={4} />
+      <StarFill rating={4} floating={false} />
     </span>
     <div className=\\"sub-title\\">
       <span />
@@ -139,7 +139,7 @@ exports[`Comment renders mocks as expected for: Gav 2`] = `
       Gav
     </span>
     <span className=\\"rating\\">
-      <StarFill rating={4} />
+      <StarFill rating={4} floating={false} />
     </span>
     <div className=\\"sub-title\\">
       <span />
@@ -163,7 +163,7 @@ exports[`Comment renders mocks as expected for: Gava 1`] = `
       Gava
     </span>
     <span className=\\"rating\\">
-      <StarFill rating={4} />
+      <StarFill rating={4} floating={false} />
     </span>
     <div className=\\"sub-title\\">
       <span />
@@ -187,7 +187,7 @@ exports[`Comment renders mocks as expected for: Huga Bejo 1`] = `
       Huga Bejo
     </span>
     <span className=\\"rating\\">
-      <StarFill rating={1} />
+      <StarFill rating={1} floating={false} />
     </span>
     <div className=\\"sub-title\\">
       <span>
@@ -216,7 +216,7 @@ exports[`Comment renders mocks as expected for: Hugo Beja 1`] = `
       Hugo Beja
     </span>
     <span className=\\"rating\\">
-      <StarFill rating={1} />
+      <StarFill rating={1} floating={false} />
     </span>
     <div className=\\"sub-title\\">
       <span>
@@ -245,7 +245,7 @@ exports[`Comment renders mocks as expected for: Hugo Beja 2`] = `
       Hugo Beja
     </span>
     <span className=\\"rating\\">
-      <StarFill rating={1} />
+      <StarFill rating={1} floating={false} />
     </span>
     <div className=\\"sub-title\\">
       <span>
@@ -274,7 +274,7 @@ exports[`Comment renders mocks as expected for: Justin Wright 1`] = `
       Justin Wright
     </span>
     <span className=\\"rating\\">
-      <StarFill rating={3} />
+      <StarFill rating={3} floating={false} />
     </span>
     <div className=\\"sub-title\\">
       <span>
@@ -300,7 +300,7 @@ exports[`Comment renders mocks as expected for: Justin Wright 2`] = `
       Justin Wright
     </span>
     <span className=\\"rating\\">
-      <StarFill rating={3} />
+      <StarFill rating={3} floating={false} />
     </span>
     <div className=\\"sub-title\\">
       <span>
@@ -326,7 +326,7 @@ exports[`Comment renders mocks as expected for: Justina Wrighta 1`] = `
       Justina Wrighta
     </span>
     <span className=\\"rating\\">
-      <StarFill rating={3} />
+      <StarFill rating={3} floating={false} />
     </span>
     <div className=\\"sub-title\\">
       <span>
@@ -352,7 +352,7 @@ exports[`Comment renders mocks as expected for: Simon Lock 1`] = `
       Simon Lock
     </span>
     <span className=\\"rating\\">
-      <StarFill rating={5} />
+      <StarFill rating={5} floating={false} />
     </span>
     <div className=\\"sub-title\\">
       <span>
@@ -378,7 +378,7 @@ exports[`Comment renders mocks as expected for: Simon Lock 2`] = `
       Simon Lock
     </span>
     <span className=\\"rating\\">
-      <StarFill rating={5} />
+      <StarFill rating={5} floating={false} />
     </span>
     <div className=\\"sub-title\\">
       <span>
@@ -404,7 +404,7 @@ exports[`Comment renders mocks as expected for: Simona Locka 1`] = `
       Simona Locka
     </span>
     <span className=\\"rating\\">
-      <StarFill rating={5} />
+      <StarFill rating={5} floating={false} />
     </span>
     <div className=\\"sub-title\\">
       <span>

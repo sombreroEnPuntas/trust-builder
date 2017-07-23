@@ -17,38 +17,38 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
               Simon Lock
             </span>
             <span className=\\"rating\\">
-              <StarFill rating={5}>
+              <StarFill rating={5} floating={false}>
                 <span className=\\"StarFill\\">
-                  <Star index={1} rating={5} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={1} rating={5} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-5 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={2} rating={5} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={2} rating={5} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-5 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={3} rating={5} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={3} rating={5} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-5 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={4} rating={5} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={4} rating={5} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-5 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={5} rating={5} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={5} rating={5} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-5 star-block_size-small\\">
                         🟊
                       </span>
@@ -80,38 +80,38 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
               Gav
             </span>
             <span className=\\"rating\\">
-              <StarFill rating={4}>
+              <StarFill rating={4} floating={false}>
                 <span className=\\"StarFill\\">
-                  <Star index={1} rating={4} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={1} rating={4} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-4 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={2} rating={4} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={2} rating={4} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-4 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={3} rating={4} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={3} rating={4} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-4 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={4} rating={4} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={4} rating={4} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-4 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={5} rating={4} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={5} rating={4} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-0 star-block_size-small\\">
                         🟊
                       </span>
@@ -141,38 +141,38 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
               Justin Wright
             </span>
             <span className=\\"rating\\">
-              <StarFill rating={3}>
+              <StarFill rating={3} floating={false}>
                 <span className=\\"StarFill\\">
-                  <Star index={1} rating={3} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={1} rating={3} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-3 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={2} rating={3} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={2} rating={3} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-3 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={3} rating={3} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={3} rating={3} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-3 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={4} rating={3} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={4} rating={3} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-0 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={5} rating={3} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={5} rating={3} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-0 star-block_size-small\\">
                         🟊
                       </span>
@@ -204,38 +204,38 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
               Erika Wolfe
             </span>
             <span className=\\"rating\\">
-              <StarFill rating={2}>
+              <StarFill rating={2} floating={false}>
                 <span className=\\"StarFill\\">
-                  <Star index={1} rating={2} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={1} rating={2} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-2 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={2} rating={2} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={2} rating={2} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-2 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={3} rating={2} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={3} rating={2} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-0 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={4} rating={2} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={4} rating={2} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-0 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={5} rating={2} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={5} rating={2} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-0 star-block_size-small\\">
                         🟊
                       </span>
@@ -277,38 +277,38 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
               Hugo Beja
             </span>
             <span className=\\"rating\\">
-              <StarFill rating={1}>
+              <StarFill rating={1} floating={false}>
                 <span className=\\"StarFill\\">
-                  <Star index={1} rating={1} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={1} rating={1} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-1 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={2} rating={1} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={2} rating={1} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-0 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={3} rating={1} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={3} rating={1} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-0 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={4} rating={1} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={4} rating={1} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-0 star-block_size-small\\">
                         🟊
                       </span>
                     </span>
                   </Star>
-                  <Star index={5} rating={1} size=\\"small\\" className=\\"\\">
-                    <span className=\\"Star \\">
+                  <Star index={5} rating={1} size=\\"small\\">
+                    <span className=\\"Star\\">
                       <span className=\\"star-block_color-0 star-block_size-small\\">
                         🟊
                       </span>
@@ -336,46 +336,184 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
           </div>
         </div>
       </Comment>
+      <Comment className=\\"positioning\\" review={{...}} size=\\"normal\\">
+        <div className=\\"Comment Comment_size-normal positioning\\">
+          <div className=\\"header\\">
+            <span className=\\"title\\">
+              Simona Locka
+            </span>
+            <span className=\\"rating\\">
+              <StarFill rating={5} floating={false}>
+                <span className=\\"StarFill\\">
+                  <Star index={1} rating={5} size=\\"small\\">
+                    <span className=\\"Star\\">
+                      <span className=\\"star-block_color-5 star-block_size-small\\">
+                        🟊
+                      </span>
+                    </span>
+                  </Star>
+                  <Star index={2} rating={5} size=\\"small\\">
+                    <span className=\\"Star\\">
+                      <span className=\\"star-block_color-5 star-block_size-small\\">
+                        🟊
+                      </span>
+                    </span>
+                  </Star>
+                  <Star index={3} rating={5} size=\\"small\\">
+                    <span className=\\"Star\\">
+                      <span className=\\"star-block_color-5 star-block_size-small\\">
+                        🟊
+                      </span>
+                    </span>
+                  </Star>
+                  <Star index={4} rating={5} size=\\"small\\">
+                    <span className=\\"Star\\">
+                      <span className=\\"star-block_color-5 star-block_size-small\\">
+                        🟊
+                      </span>
+                    </span>
+                  </Star>
+                  <Star index={5} rating={5} size=\\"small\\">
+                    <span className=\\"Star\\">
+                      <span className=\\"star-block_color-5 star-block_size-small\\">
+                        🟊
+                      </span>
+                    </span>
+                  </Star>
+                </span>
+              </StarFill>
+            </span>
+            <div className=\\"sub-title\\">
+              <span>
+                Brandenburg
+              </span>
+            </div>
+          </div>
+          <div className=\\"body\\">
+            <p className=\\"title\\">
+              Ich hat eine ente
+            </p>
+            <p>
+              Die ente frist das hund
+            </p>
+          </div>
+        </div>
+      </Comment>
+      <Comment className=\\"positioning\\" review={{...}} size=\\"normal\\">
+        <div className=\\"Comment Comment_size-normal positioning\\">
+          <div className=\\"header\\">
+            <span className=\\"title\\">
+              Gava
+            </span>
+            <span className=\\"rating\\">
+              <StarFill rating={4} floating={false}>
+                <span className=\\"StarFill\\">
+                  <Star index={1} rating={4} size=\\"small\\">
+                    <span className=\\"Star\\">
+                      <span className=\\"star-block_color-4 star-block_size-small\\">
+                        🟊
+                      </span>
+                    </span>
+                  </Star>
+                  <Star index={2} rating={4} size=\\"small\\">
+                    <span className=\\"Star\\">
+                      <span className=\\"star-block_color-4 star-block_size-small\\">
+                        🟊
+                      </span>
+                    </span>
+                  </Star>
+                  <Star index={3} rating={4} size=\\"small\\">
+                    <span className=\\"Star\\">
+                      <span className=\\"star-block_color-4 star-block_size-small\\">
+                        🟊
+                      </span>
+                    </span>
+                  </Star>
+                  <Star index={4} rating={4} size=\\"small\\">
+                    <span className=\\"Star\\">
+                      <span className=\\"star-block_color-4 star-block_size-small\\">
+                        🟊
+                      </span>
+                    </span>
+                  </Star>
+                  <Star index={5} rating={4} size=\\"small\\">
+                    <span className=\\"Star\\">
+                      <span className=\\"star-block_color-0 star-block_size-small\\">
+                        🟊
+                      </span>
+                    </span>
+                  </Star>
+                </span>
+              </StarFill>
+            </span>
+            <div className=\\"sub-title\\">
+              <span />
+            </div>
+          </div>
+          <div className=\\"body\\">
+            <p className=\\"title\\">
+              Cesaro Summability
+            </p>
+            <p>
+              This was a song I was listening to when I was younger.
+            </p>
+          </div>
+        </div>
+      </Comment>
     </div>
     <div className=\\"logo\\">
       <img alt=\\"☑ Trustpilot\\" src=\\"/logo/255x29.png\\" />
     </div>
     <div className=\\"stars\\">
-      <Star className=\\"positioning\\" index={1} rating={3} size=\\"big\\">
-        <span className=\\"Star positioning\\">
-          <span className=\\"star-block_color-3 star-block_size-big\\">
-            🟊
+      <StarFill rating={3} floating={true}>
+        <span className=\\"StarFill-floating\\">
+          <span className=\\"positioning\\">
+            <Star index={1} rating={3} size=\\"big\\">
+              <span className=\\"Star\\">
+                <span className=\\"star-block_color-3 star-block_size-big\\">
+                  🟊
+                </span>
+              </span>
+            </Star>
+          </span>
+          <span className=\\"positioning\\">
+            <Star index={2} rating={3} size=\\"big\\">
+              <span className=\\"Star\\">
+                <span className=\\"star-block_color-3 star-block_size-big\\">
+                  🟊
+                </span>
+              </span>
+            </Star>
+          </span>
+          <span className=\\"positioning\\">
+            <Star index={3} rating={3} size=\\"big\\">
+              <span className=\\"Star\\">
+                <span className=\\"star-block_color-3 star-block_size-big\\">
+                  🟊
+                </span>
+              </span>
+            </Star>
+          </span>
+          <span className=\\"positioning\\">
+            <Star index={4} rating={3} size=\\"big\\">
+              <span className=\\"Star\\">
+                <span className=\\"star-block_color-0 star-block_size-big\\">
+                  🟊
+                </span>
+              </span>
+            </Star>
+          </span>
+          <span className=\\"positioning\\">
+            <Star index={5} rating={3} size=\\"big\\">
+              <span className=\\"Star\\">
+                <span className=\\"star-block_color-0 star-block_size-big\\">
+                  🟊
+                </span>
+              </span>
+            </Star>
           </span>
         </span>
-      </Star>
-      <Star className=\\"positioning\\" index={2} rating={3} size=\\"big\\">
-        <span className=\\"Star positioning\\">
-          <span className=\\"star-block_color-3 star-block_size-big\\">
-            🟊
-          </span>
-        </span>
-      </Star>
-      <Star className=\\"positioning\\" index={3} rating={3} size=\\"big\\">
-        <span className=\\"Star positioning\\">
-          <span className=\\"star-block_color-3 star-block_size-big\\">
-            🟊
-          </span>
-        </span>
-      </Star>
-      <Star className=\\"positioning\\" index={4} rating={3} size=\\"big\\">
-        <span className=\\"Star positioning\\">
-          <span className=\\"star-block_color-0 star-block_size-big\\">
-            🟊
-          </span>
-        </span>
-      </Star>
-      <Star className=\\"positioning\\" index={5} rating={3} size=\\"big\\">
-        <span className=\\"Star positioning\\">
-          <span className=\\"star-block_color-0 star-block_size-big\\">
-            🟊
-          </span>
-        </span>
-      </Star>
+      </StarFill>
     </div>
   </div>
 </Widget>"

@@ -1,2 +1,31 @@
+@import '../styles';
+
 .StarFill {
+  &-floating {
+    @include display-flex-center();
+
+    .positioning {
+      display: inline-block;
+    }
+
+    .positioning:nth-child(1) {
+      z-index: 0;
+      transform: rotate(40deg) scale(0.7) translate(60%, -120%);
+    }
+    .positioning:nth-child(2) {
+      z-index: 1;
+      transform: rotate(20deg) scale(0.9) translate(35%, -25%);
+    }
+    .positioning:nth-child(3) {
+      z-index: 2;
+    }
+    .positioning:nth-last-child(2) {
+      z-index: 1;
+      transform: rotate(-20deg) scale(0.9) translate(-35%,-25%);
+    }
+    .positioning:nth-last-child(1) {
+      z-index: 0;
+      transform: rotate(-40deg) scale(0.7) translate(-60%, -120%);
+    }
+  }
 }

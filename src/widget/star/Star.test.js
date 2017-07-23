@@ -26,7 +26,7 @@ describe('Star gets proper class name and structure for:', () => {
 
 describe('Star gets proper class name and structure for:', () => {
   const stars = [
-    {index: 1, rating: 1, size: 'big', className: 'some-parent-class'},
+    {index: 1, rating: 1, size: 'big'},
   ];
 
   stars.forEach(star => {
