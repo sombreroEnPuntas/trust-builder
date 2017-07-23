@@ -13,9 +13,19 @@ $color-star-3: #F8CC1B;
 $color-star-4: #72B043;
 $color-star-5: #007F4E;
 
+$color-background: #FAFAFA;
+
 // +--------+
-// | FONTS  |
+// | SIZES  |
 // +--------+
+
+$widget-block-normal: 300px;
+
+$review-block-normal: 250px;
+$review-block-normal-header: 50px;
+$review-block-normal-body: 200px;
+
+$font-size-title: 18px;
 
 $font-size-primary: 14px;
 $font-size-primary-star-block: 16px;
@@ -28,8 +38,21 @@ $font-size-primary-big-star-margin: 1px;
 $font-size-secondary: 12px;
 
 // +--------+
+// | STYLES |
+// +--------+
+
+$review-block-border: 3px solid $color-font-primary;
+$review-block-border-radius: 6px;
+
+// +--------+
 // | MIXINS |
 // +--------+
+
+@mixin text-title() {
+  color: $color-font-primary;
+  font-size: $font-size-title;
+  font-weight: bold;
+}
 
 @mixin text-primary() {
   color: $color-font-primary;

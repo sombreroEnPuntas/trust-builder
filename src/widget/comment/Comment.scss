@@ -1,23 +1,52 @@
 @import '../styles';
 
 .Comment {
-  .title {
-    @include text-primary();
-    @include star-line-spacer();
-    
-    display: inline-block;
-    font-weight: bold;
+  border: $review-block-border;
+  border-radius: $review-block-border-radius;
+  background-color: $color-background;
+  
+  &_size-normal {
+    height: $review-block-normal;
+    width: $review-block-normal;
   }
 
-  .rating {
-    float: right;
-  }
+  .header {
+    height: $review-block-normal-header;
+    width: $review-block-normal;
+    overflow: hidden;
 
-  .sub-title {
-    @include text-secondary();
+    .title {
+      @include text-title();
+      @include star-line-spacer();
+      
+      display: inline-block;
+    }
+
+    .rating {
+      float: right;
+    }
+
+    .sub-title {
+      @include text-secondary();
+    }
   }
 
   .body {
     @include text-primary();
+
+    height: $review-block-normal-body;
+    width: $review-block-normal;
+    overflow: auto;
+
+    .title {
+      @include text-primary();
+      font-weight: bold;
+      padding-bottom: 0.5em;
+    }
+
+    p {
+      padding: 0;
+      margin: 0;
+    }
   }
 }

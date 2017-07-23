@@ -1,19 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Comment renders mocks as expected for: Erika Wolfe 1`] = `
-"<div className=\\"Comment\\">
-  <span className=\\"title\\">
-    Nightmare experience - no product, no communication, no refund; improved by rapid resolution
-  </span>
-  <span className=\\"rating\\">
-    <StarFill rating={2} />
-  </span>
-  <div className=\\"sub-title\\">
-    <span>
-      Erika Wolfe - Gothenburg, SE
+"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+  <div className=\\"header\\">
+    <span className=\\"title\\">
+      Erika Wolfe
     </span>
+    <span className=\\"rating\\">
+      <StarFill rating={2} />
+    </span>
+    <div className=\\"sub-title\\">
+      <span>
+        Gothenburg, SE
+      </span>
+    </div>
   </div>
   <div className=\\"body\\">
+    <p className=\\"title\\">
+      Nightmare experience - no product, no communication, no refund; improved by rapid resolution
+    </p>
     <p>
       In early 2012, I ordered a set of chairs from Infurn. I thought that by ordering in March, I would have what I needed by November, certainly. I wanted the perfect chairs for my house, and really did not NEED them before the annual Thanksgiving dinner (the only time of year I have a need for a whole lot of chairs at one time). I played it safe, I thought, by ordering so far in advance.
       Week after week,
@@ -31,20 +36,95 @@ exports[`Comment renders mocks as expected for: Erika Wolfe 1`] = `
 </div>"
 `;
 
-exports[`Comment renders mocks as expected for: Gav 1`] = `
-"<div className=\\"Comment\\">
-  <span className=\\"title\\">
-    Princely Sum
-  </span>
-  <span className=\\"rating\\">
-    <StarFill rating={4} />
-  </span>
-  <div className=\\"sub-title\\">
-    <span>
-      Gav
+exports[`Comment renders mocks as expected for: Erika Wolfe 2`] = `
+"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+  <div className=\\"header\\">
+    <span className=\\"title\\">
+      Erika Wolfe
     </span>
+    <span className=\\"rating\\">
+      <StarFill rating={2} />
+    </span>
+    <div className=\\"sub-title\\">
+      <span>
+        Gothenburg, SE
+      </span>
+    </div>
   </div>
   <div className=\\"body\\">
+    <p className=\\"title\\">
+      Nightmare experience - no product, no communication, no refund; improved by rapid resolution
+    </p>
+    <p>
+      In early 2012, I ordered a set of chairs from Infurn. I thought that by ordering in March, I would have what I needed by November, certainly. I wanted the perfect chairs for my house, and really did not NEED them before the annual Thanksgiving dinner (the only time of year I have a need for a whole lot of chairs at one time). I played it safe, I thought, by ordering so far in advance.
+      Week after week,
+      month after month,
+      Infurn &#39;s website kept updating the status of the order so that the chairs&#39;
+      arrival would be further and further in the distant future.Finally when the week of Thanksgiving arrived,
+      and I had had contact with their customer service in early November(and their only clueless reply was to say, &#39;We had manufacturing problems; let&#39;
+      s hope the chairs arrive this week as scheduled.
+      &#39;), I still had no chairs, had to go out and buy some other chairs and still had no clue when the Infurn chairs might arrive.
+      At some point I
+      finally just requested a refund because Infurn could neither deliver my chairs nor give me a solid date about when I might receive them when I inquired about a delivery date.They
+      finally offered me a refund - which I accepted on 14 December 2012. 
+    </p>
+  </div>
+</div>"
+`;
+
+exports[`Comment renders mocks as expected for: Eriko Wolfo 1`] = `
+"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+  <div className=\\"header\\">
+    <span className=\\"title\\">
+      Eriko Wolfo
+    </span>
+    <span className=\\"rating\\">
+      <StarFill rating={2} />
+    </span>
+    <div className=\\"sub-title\\">
+      <span>
+        Johanesburg
+      </span>
+    </div>
+  </div>
+  <div className=\\"body\\">
+    <p className=\\"title\\">
+      Sunmare experience - yes product, yes communication, yes refund; improved by slow resolution
+    </p>
+    <p>
+      In early 2102, I ordered a set of stairs from Infurn. I thought that by ordering in March, I would have what I needed by November, certainly. I wanted the perfect stairs for my house, and really did not NEED them before the annual Thanksgiving dinner (the only time of year I have a need for a whole lot of stairs at one time). I played it safe, I thought, by ordering so far in advance.
+      Week after week,
+      month after month,
+      Infurn &#39;s website kept updating the status of the order so that the stairs&#39;
+      arrival would be further and further in the distant future.Finally when the week of Thanksgiving arrived,
+      and I had had contact with their customer service in early November(and their only clueless reply was to say, &#39;We had manufacturing problems; let&#39;
+      s hope the stairs arrive this week as scheduled.
+      &#39;), I still had no stairs, had to go out and buy some other stairs and still had no clue when the Infurn stairs might arrive.
+      At some point I
+      finally just requested a refund because Infurn could neither deliver my stairs nor give me a solid date about when I might receive them when I inquired about a delivery date.They
+      finally offered me a refund - which I accepted on 14 December 2012.
+    </p>
+  </div>
+</div>"
+`;
+
+exports[`Comment renders mocks as expected for: Gav 1`] = `
+"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+  <div className=\\"header\\">
+    <span className=\\"title\\">
+      Gav
+    </span>
+    <span className=\\"rating\\">
+      <StarFill rating={4} />
+    </span>
+    <div className=\\"sub-title\\">
+      <span />
+    </div>
+  </div>
+  <div className=\\"body\\">
+    <p className=\\"title\\">
+      Princely Sum
+    </p>
     <p>
       A decent local curry house in Faversham, Kent known for its Elvis nights.
     </p>
@@ -52,20 +132,131 @@ exports[`Comment renders mocks as expected for: Gav 1`] = `
 </div>"
 `;
 
-exports[`Comment renders mocks as expected for: Hugo Beja 1`] = `
-"<div className=\\"Comment\\">
-  <span className=\\"title\\">
-    FRAUD
-  </span>
-  <span className=\\"rating\\">
-    <StarFill rating={1} />
-  </span>
-  <div className=\\"sub-title\\">
-    <span>
-      Hugo Beja - Praia Da Barra, PT
+exports[`Comment renders mocks as expected for: Gav 2`] = `
+"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+  <div className=\\"header\\">
+    <span className=\\"title\\">
+      Gav
     </span>
+    <span className=\\"rating\\">
+      <StarFill rating={4} />
+    </span>
+    <div className=\\"sub-title\\">
+      <span />
+    </div>
   </div>
   <div className=\\"body\\">
+    <p className=\\"title\\">
+      Princely Sum
+    </p>
+    <p>
+      A decent local curry house in Faversham, Kent known for its Elvis nights.
+    </p>
+  </div>
+</div>"
+`;
+
+exports[`Comment renders mocks as expected for: Gava 1`] = `
+"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+  <div className=\\"header\\">
+    <span className=\\"title\\">
+      Gava
+    </span>
+    <span className=\\"rating\\">
+      <StarFill rating={4} />
+    </span>
+    <div className=\\"sub-title\\">
+      <span />
+    </div>
+  </div>
+  <div className=\\"body\\">
+    <p className=\\"title\\">
+      Cesaro Summability
+    </p>
+    <p>
+      This was a song I was listening to when I was younger.
+    </p>
+  </div>
+</div>"
+`;
+
+exports[`Comment renders mocks as expected for: Huga Bejo 1`] = `
+"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+  <div className=\\"header\\">
+    <span className=\\"title\\">
+      Huga Bejo
+    </span>
+    <span className=\\"rating\\">
+      <StarFill rating={1} />
+    </span>
+    <div className=\\"sub-title\\">
+      <span>
+        Fortaleza, BZ
+      </span>
+    </div>
+  </div>
+  <div className=\\"body\\">
+    <p className=\\"title\\">
+      FRAUD
+    </p>
+    <p>
+      I&#39;ve been patiently waiting for a miracle to happen with our order AU-316084, 12 stairs!! First the delays, lots and lots of delays with no apparent reason... after they send just 1/2 of the order and say it&#39;s all... So we bought &#39;Pairs&#39; of stairs... we paid for 5 PAIRS and received 5 stairs!!! The other 2, the rocket stairs we never receive....
+      Communication ZERO,
+      they simply ignore the e - mails...when they did respond they asked us to prove our order to be pairs!!!LOL and just stopped communicating...their website is constantly down...probably to make lose interest and rest your forces to recover what you paid
+      for !!
+    </p>
+  </div>
+</div>"
+`;
+
+exports[`Comment renders mocks as expected for: Hugo Beja 1`] = `
+"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+  <div className=\\"header\\">
+    <span className=\\"title\\">
+      Hugo Beja
+    </span>
+    <span className=\\"rating\\">
+      <StarFill rating={1} />
+    </span>
+    <div className=\\"sub-title\\">
+      <span>
+        Praia Da Barra, PT
+      </span>
+    </div>
+  </div>
+  <div className=\\"body\\">
+    <p className=\\"title\\">
+      FRAUD
+    </p>
+    <p>
+      I&#39;ve been patiently waiting for a miracle to happen with our order AU-316084, 12 Chairs!! First the delays, lots and lots of delays with no apparent reason... after they send just 1/2 of the order and say it&#39;s all... So we bought &#39;Pairs&#39; of chairs... we paid for 5 PAIRS and received 5 chairs!!! The other 2, the rocket chairs we never receive....
+      Communication ZERO,
+      they simply ignore the e - mails...when they did respond they asked us to prove our order to be pairs!!!LOL and just stopped communicating...their website is constantly down...probably to make lose interest and rest your forces to recover what you paid
+      for !!
+    </p>
+  </div>
+</div>"
+`;
+
+exports[`Comment renders mocks as expected for: Hugo Beja 2`] = `
+"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+  <div className=\\"header\\">
+    <span className=\\"title\\">
+      Hugo Beja
+    </span>
+    <span className=\\"rating\\">
+      <StarFill rating={1} />
+    </span>
+    <div className=\\"sub-title\\">
+      <span>
+        Praia Da Barra, PT
+      </span>
+    </div>
+  </div>
+  <div className=\\"body\\">
+    <p className=\\"title\\">
+      FRAUD
+    </p>
     <p>
       I&#39;ve been patiently waiting for a miracle to happen with our order AU-316084, 12 Chairs!! First the delays, lots and lots of delays with no apparent reason... after they send just 1/2 of the order and say it&#39;s all... So we bought &#39;Pairs&#39; of chairs... we paid for 5 PAIRS and received 5 chairs!!! The other 2, the rocket chairs we never receive....
       Communication ZERO,
@@ -77,19 +268,24 @@ exports[`Comment renders mocks as expected for: Hugo Beja 1`] = `
 `;
 
 exports[`Comment renders mocks as expected for: Justin Wright 1`] = `
-"<div className=\\"Comment\\">
-  <span className=\\"title\\">
-    Good Services
-  </span>
-  <span className=\\"rating\\">
-    <StarFill rating={3} />
-  </span>
-  <div className=\\"sub-title\\">
-    <span>
-      Justin Wright - London, GB
+"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+  <div className=\\"header\\">
+    <span className=\\"title\\">
+      Justin Wright
     </span>
+    <span className=\\"rating\\">
+      <StarFill rating={3} />
+    </span>
+    <div className=\\"sub-title\\">
+      <span>
+        London, GB
+      </span>
+    </div>
   </div>
   <div className=\\"body\\">
+    <p className=\\"title\\">
+      Good Services
+    </p>
     <p>
       A decent place to introduce your taste buds to fiery Indian fare
     </p>
@@ -97,22 +293,131 @@ exports[`Comment renders mocks as expected for: Justin Wright 1`] = `
 </div>"
 `;
 
-exports[`Comment renders mocks as expected for: Simon Lock 1`] = `
-"<div className=\\"Comment\\">
-  <span className=\\"title\\">
-    Super quality.. I will show here again!
-  </span>
-  <span className=\\"rating\\">
-    <StarFill rating={5} />
-  </span>
-  <div className=\\"sub-title\\">
-    <span>
-      Simon Lock - Kolding
+exports[`Comment renders mocks as expected for: Justin Wright 2`] = `
+"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+  <div className=\\"header\\">
+    <span className=\\"title\\">
+      Justin Wright
     </span>
+    <span className=\\"rating\\">
+      <StarFill rating={3} />
+    </span>
+    <div className=\\"sub-title\\">
+      <span>
+        London, GB
+      </span>
+    </div>
   </div>
   <div className=\\"body\\">
+    <p className=\\"title\\">
+      Good Services
+    </p>
+    <p>
+      A decent place to introduce your taste buds to fiery Indian fare
+    </p>
+  </div>
+</div>"
+`;
+
+exports[`Comment renders mocks as expected for: Justina Wrighta 1`] = `
+"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+  <div className=\\"header\\">
+    <span className=\\"title\\">
+      Justina Wrighta
+    </span>
+    <span className=\\"rating\\">
+      <StarFill rating={3} />
+    </span>
+    <div className=\\"sub-title\\">
+      <span>
+        Leeds, GB
+      </span>
+    </div>
+  </div>
+  <div className=\\"body\\">
+    <p className=\\"title\\">
+      Good Lord
+    </p>
+    <p>
+      Train be late, ain&#39;t no waiting!
+    </p>
+  </div>
+</div>"
+`;
+
+exports[`Comment renders mocks as expected for: Simon Lock 1`] = `
+"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+  <div className=\\"header\\">
+    <span className=\\"title\\">
+      Simon Lock
+    </span>
+    <span className=\\"rating\\">
+      <StarFill rating={5} />
+    </span>
+    <div className=\\"sub-title\\">
+      <span>
+        Kolding
+      </span>
+    </div>
+  </div>
+  <div className=\\"body\\">
+    <p className=\\"title\\">
+      Super quality.. I will show here again!
+    </p>
     <p>
       Super nice quality, fast devilery, good prices. I will shop here again!
+    </p>
+  </div>
+</div>"
+`;
+
+exports[`Comment renders mocks as expected for: Simon Lock 2`] = `
+"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+  <div className=\\"header\\">
+    <span className=\\"title\\">
+      Simon Lock
+    </span>
+    <span className=\\"rating\\">
+      <StarFill rating={5} />
+    </span>
+    <div className=\\"sub-title\\">
+      <span>
+        Kolding
+      </span>
+    </div>
+  </div>
+  <div className=\\"body\\">
+    <p className=\\"title\\">
+      Super quality.. I will show here again!
+    </p>
+    <p>
+      Super nice quality, fast devilery, good prices. I will shop here again!
+    </p>
+  </div>
+</div>"
+`;
+
+exports[`Comment renders mocks as expected for: Simona Locka 1`] = `
+"<div className=\\"Comment Comment_size-normal some-parent-class\\">
+  <div className=\\"header\\">
+    <span className=\\"title\\">
+      Simona Locka
+    </span>
+    <span className=\\"rating\\">
+      <StarFill rating={5} />
+    </span>
+    <div className=\\"sub-title\\">
+      <span>
+        Brandenburg
+      </span>
+    </div>
+  </div>
+  <div className=\\"body\\">
+    <p className=\\"title\\">
+      Ich hat eine ente
+    </p>
+    <p>
+      Die ente frist das hund
     </p>
   </div>
 </div>"
