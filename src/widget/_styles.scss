@@ -32,10 +32,12 @@ $review-block-normal-body: 200px;
 $font-size-title: 18px;
 
 $font-size-primary: 14px;
+$font-size-primary-star: 11px;
 $font-size-primary-star-block: 16px;
 $font-size-primary-star-margin: 1px;
 
 $font-size-primary-big: 30px;
+$font-size-primary-big-star: 24px;
 $font-size-primary-big-star-block: 34px;
 $font-size-primary-big-star-margin: 1px;
 
@@ -86,7 +88,7 @@ $button-box-shadow: 2px 2px 5px 0px $color-button-shadow;
   @else if $rating == 3 { background-color: $color-star-3; }
   @else if $rating == 4 { background-color: $color-star-4; }
   @else if $rating == 5 { background-color: $color-star-5; }
-  
+
   color: $color-font-primary-invert;
   text-align: center;
   display: inline-block;

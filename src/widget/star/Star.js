@@ -8,7 +8,7 @@ const Star = ({ index, rating, size }) => (
     <span
       className={`star-block_color-${index <= rating ? rating : 0} star-block_size-${size}`}
     >
-      🟊
+      ★
     </span>
   </span>
 );

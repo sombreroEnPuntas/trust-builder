@@ -5,14 +5,14 @@
     margin: $font-size-primary-star-margin;
     height: $font-size-primary-star-block;
     width: $font-size-primary-star-block;
-    font-size: $font-size-primary;
+    font-size: $font-size-primary-star;
   }
 
   .star-block_size-big {
     margin: $font-size-primary-big-star-margin;
     height: $font-size-primary-big-star-block;
     width: $font-size-primary-big-star-block;
-    font-size: $font-size-primary-big;
+    font-size: $font-size-primary-big-star;
   }
 
   @for $i from 0 through 5 {
