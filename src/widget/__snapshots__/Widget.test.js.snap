@@ -31,35 +31,35 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
                       <Star index={1} rating={5} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-5 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={2} rating={5} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-5 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={3} rating={5} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-5 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={4} rating={5} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-5 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={5} rating={5} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-5 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
@@ -96,35 +96,35 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
                       <Star index={1} rating={4} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-4 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={2} rating={4} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-4 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={3} rating={4} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-4 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={4} rating={4} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-4 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={5} rating={4} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-0 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
@@ -159,35 +159,35 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
                       <Star index={1} rating={3} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-3 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={2} rating={3} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-3 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={3} rating={3} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-3 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={4} rating={3} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-0 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={5} rating={3} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-0 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
@@ -224,35 +224,35 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
                       <Star index={1} rating={2} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-2 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={2} rating={2} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-2 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={3} rating={2} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-0 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={4} rating={2} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-0 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={5} rating={2} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-0 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
@@ -299,35 +299,35 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
                       <Star index={1} rating={1} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-1 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={2} rating={1} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-0 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={3} rating={1} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-0 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={4} rating={1} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-0 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
                       <Star index={5} rating={1} size=\\"small\\">
                         <span className=\\"Star\\">
                           <span className=\\"star-block_color-0 star-block_size-small\\">
-                            🟊
+                            ★
                           </span>
                         </span>
                       </Star>
@@ -368,7 +368,7 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
               <Star index={1} rating={3} size=\\"big\\">
                 <span className=\\"Star\\">
                   <span className=\\"star-block_color-3 star-block_size-big\\">
-                    🟊
+                    ★
                   </span>
                 </span>
               </Star>
@@ -377,7 +377,7 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
               <Star index={2} rating={3} size=\\"big\\">
                 <span className=\\"Star\\">
                   <span className=\\"star-block_color-3 star-block_size-big\\">
-                    🟊
+                    ★
                   </span>
                 </span>
               </Star>
@@ -386,7 +386,7 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
               <Star index={3} rating={3} size=\\"big\\">
                 <span className=\\"Star\\">
                   <span className=\\"star-block_color-3 star-block_size-big\\">
-                    🟊
+                    ★
                   </span>
                 </span>
               </Star>
@@ -395,7 +395,7 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
               <Star index={4} rating={3} size=\\"big\\">
                 <span className=\\"Star\\">
                   <span className=\\"star-block_color-0 star-block_size-big\\">
-                    🟊
+                    ★
                   </span>
                 </span>
               </Star>
@@ -404,7 +404,7 @@ exports[`Widget renders mocks as expected for: Shows reviews! 1`] = `
               <Star index={5} rating={3} size=\\"big\\">
                 <span className=\\"Star\\">
                   <span className=\\"star-block_color-0 star-block_size-big\\">
-                    🟊
+                    ★
                   </span>
                 </span>
               </Star>

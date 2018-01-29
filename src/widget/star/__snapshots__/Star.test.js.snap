@@ -3,7 +3,7 @@
 exports[`Star gets proper class name and structure for: index 1 / rating: 1 / big! 1`] = `
 "<span className=\\"Star\\">
   <span className=\\"star-block_color-1 star-block_size-big\\">
-    🟊
+    ★
   </span>
 </span>"
 `;
@@ -11,7 +11,7 @@ exports[`Star gets proper class name and structure for: index 1 / rating: 1 / bi
 exports[`Star gets proper class name and structure for: index 1 / rating: 1 1`] = `
 "<span className=\\"Star\\">
   <span className=\\"star-block_color-1 star-block_size-small\\">
-    🟊
+    ★
   </span>
 </span>"
 `;
@@ -19,7 +19,7 @@ exports[`Star gets proper class name and structure for: index 1 / rating: 1 1`] 
 exports[`Star gets proper class name and structure for: index 1 / rating: 2 1`] = `
 "<span className=\\"Star\\">
   <span className=\\"star-block_color-2 star-block_size-small\\">
-    🟊
+    ★
   </span>
 </span>"
 `;
@@ -27,7 +27,7 @@ exports[`Star gets proper class name and structure for: index 1 / rating: 2 1`] 
 exports[`Star gets proper class name and structure for: index 1 / rating: 3 1`] = `
 "<span className=\\"Star\\">
   <span className=\\"star-block_color-3 star-block_size-small\\">
-    🟊
+    ★
   </span>
 </span>"
 `;
@@ -35,7 +35,7 @@ exports[`Star gets proper class name and structure for: index 1 / rating: 3 1`] 
 exports[`Star gets proper class name and structure for: index 1 / rating: 4 1`] = `
 "<span className=\\"Star\\">
   <span className=\\"star-block_color-4 star-block_size-small\\">
-    🟊
+    ★
   </span>
 </span>"
 `;
@@ -43,7 +43,7 @@ exports[`Star gets proper class name and structure for: index 1 / rating: 4 1`] 
 exports[`Star gets proper class name and structure for: index 1 / rating: 5 1`] = `
 "<span className=\\"Star\\">
   <span className=\\"star-block_color-5 star-block_size-small\\">
-    🟊
+    ★
   </span>
 </span>"
 `;
@@ -51,7 +51,7 @@ exports[`Star gets proper class name and structure for: index 1 / rating: 5 1`] 
 exports[`Star gets proper class name and structure for: index 2 / rating: 1 1`] = `
 "<span className=\\"Star\\">
   <span className=\\"star-block_color-0 star-block_size-small\\">
-    🟊
+    ★
   </span>
 </span>"
 `;
