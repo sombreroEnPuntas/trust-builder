@@ -1,7 +1,10 @@
 # `trust-builder`
-Challenge task: build a trust builder for TrustPilot.
-Demo app running on Heroku :)  
-https://trust-builder.herokuapp.com/
+Challenge task: build a trust builder for TrustPilot.  
+Demo app on Heroku :)  
+
+~~https://trust-builder.herokuapp.com/~~  
+Checking my portfolio and want something to click?  
+Open an issue on this repo requesting to activate the deployed app!
 
 ## Table of Contents
 - [Intro](#intro)
